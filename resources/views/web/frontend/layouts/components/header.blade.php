@@ -16,18 +16,18 @@
                             <div class="main-menu">
                                 <nav class="d-none d-lg-block">
                                     <ul id="navigation">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="index.html">Home</a></li>
-                                           <li><a href="index.html">Home</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="index.html">@lang('Main page')</a></li>
+                                        <li><a href="index.html">@lang('Companies')</a></li>
+                                        <li><a href="index.html">@lang('Vacancies')</a></li>
+                                        <li><a href="index.html">@lang('News')</a></li>
+                                        <li><a href="contact.html">@lang('Contact us')</a></li>
                                     </ul>
                                 </nav>
                             </div>                           
                             <!-- Header-btn -->
                             <div class="header-btn d-none f-right d-lg-block">
-                                <a href="#" class="btn head-btn1">Register</a>
-                                <a href="#" class="btn head-btn2">Login</a>
+                                <a href="#" class="btn head-btn1">@lang('Register')</a>
+                                <a href="#" class="btn head-btn2">@lang('Login')</a>
                             </div>
 
                             <!-- Lang select -->

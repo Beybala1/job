@@ -19,4 +19,14 @@
 <script src="{{ asset('frontend/assets/js/jquery.ajaxchimp.min.js') }}"></script>
 <script src="{{ asset('frontend/assets/js/plugins.js') }}"></script>
 <script src="{{ asset('frontend/assets/js/main.js') }}"></script>
-    
+
+<script>
+    $(document).ready(function() {
+        $(document).on("change", `[data-role="select-lang"]`, function(e) {
+            let selectedLocale = $(this).val();
+                currentPath = window.location.pathname,
+                newPath = '/' + selectedLocale + currentPath.substring(3), 
+            window.location.href = newPath;
+        });
+    });
+</script>

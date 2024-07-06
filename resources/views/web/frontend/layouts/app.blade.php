@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html class="no-js" lang="az">
+<html lang="{{ config("app.locale") }}">
 <head>
     {{-- Meta tags and CSS --}}
     @include('web.frontend.layouts.components.head')
-    @include('web.frontend.layouts.components.header.css')
+    @include('web.frontend.layouts.components.head.css')
 </head>
 <body>
     
@@ -30,7 +30,6 @@
     @include('web.frontend.layouts.components.footer')
 
     {{-- JavaScript --}}
-
-    @include('web.frontend.layouts.components.header.js')
+    @include('web.frontend.layouts.components.foot.js')
 </body>
 </html>

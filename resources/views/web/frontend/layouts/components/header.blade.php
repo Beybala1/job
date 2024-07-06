@@ -32,11 +32,10 @@
 
                             <!-- Lang select -->
                             <div class="language-select-wrapper d-none d-lg-block">
-                                <select class="language-select">
-                                    <option value="en">English</option>
-                                    <option value="es">Español</option>
-                                    <option value="fr">Français</option>
-                                    <option value="de">Deutsch</option>
+                                <select class="language-select" data-role="select-lang">
+                                    @foreach (config("app.locales") as $item)
+                                        <option value="{{ $item }}" {{ config("app.locale") === $item ? "selected" : ""}}>{{ $item }}</option>
+                                    @endforeach   
                                 </select>
                             </div>
                         </div>
@@ -52,3 +51,6 @@
    </div>
     <!-- Header End -->
 </header>
+
+
+ 

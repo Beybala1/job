@@ -45,7 +45,7 @@
                              <div id="mc_embed_signup">
                                  <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
                                  method="get" class="subscribe_form relative mail_part">
-                                     <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
+                                     <input type="email" name="email" id="newsletter-form-email" placeholder="@lang("Email")"
                                      class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
                                      onblur="this.placeholder = ' @lang('Email')'">
                                      <div class="form-icon">

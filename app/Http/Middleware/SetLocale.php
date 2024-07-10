@@ -18,7 +18,7 @@ class SetLocale
     public function handle(Request $request, Closure $next): Response
     {
         $locale = $request->route('locale');
-
+        
         if (!in_array($locale, Config::get('app.locales'))) {
             $locale = Config::get('app.fallback_locale');
         }
